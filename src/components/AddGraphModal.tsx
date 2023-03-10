@@ -20,7 +20,7 @@ import GraphOptions from "./modalItems/graphOptions";
 import { toast } from "react-toastify";
 import { useCustomDispatch } from "../hooks/redux";
 import { setNewVisualization } from "../redux/slices/visualizations";
-import { StyledModal } from "./StyledObjects";
+import { StyledModal,StyledSubmitButton,StyledCancelButton } from "./StyledObjects";
 
 const style = {
   position: "absolute" as "absolute",
@@ -263,18 +263,17 @@ export default function BasicModal({
               width: "100%",
             }}
           >
-            <Button sx={{ backgroundColor: "blue" }} onClick={handleSubmit}>
+            <StyledSubmitButton onClick={handleSubmit}>
               Submit
-            </Button>
-            <Button
-              sx={{ bgcolor: "red" }}
+            </StyledSubmitButton>
+            <StyledCancelButton
               onClick={() => {
                 handleClose();
                 resetFunction();
               }}
             >
               Cancel
-            </Button>
+            </StyledCancelButton>
           </SimpleBox>
         </Box>
       </StyledModal>

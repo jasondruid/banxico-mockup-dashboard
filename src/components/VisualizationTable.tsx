@@ -91,7 +91,7 @@ const VisualizationTable = ({
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: { xs: "200px" },
+        minHeight: { xs: "300px" },
         width: { xs: "100%", md: "50%" },
         p: { xs: 1, sm: 3 },
       }}

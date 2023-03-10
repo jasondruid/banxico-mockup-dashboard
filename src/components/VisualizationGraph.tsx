@@ -38,8 +38,8 @@ const VisualizationGraph = ({
     return (
       <Box
         sx={{
-          minHeight: { md: "300px" },
-          maxHeight: { md: "300px" },
+          minHeight: { md: "350px" },
+          maxHeight: { md: "350px" },
           width: { xs: "100%", sm: "50%" },
           p: 3,
         }}
@@ -80,7 +80,7 @@ const VisualizationGraph = ({
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: { xs: "200px" },
+        minHeight: { xs: "350px" },
         width: { xs: "100%", md: "50%" },
         p: { xs: 1, sm: 3 },
       }}
