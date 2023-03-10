@@ -1,7 +1,7 @@
 
 # Banxico Mockup Dashboard
 
-Un proyecto que es un Dashboard que permite generar graficos y tablas en base a información obtenida de Endpoints proporcionados por Tukan. 
+This is a Dashboard project which allows the user to generate graphs and tables based on the responses obtained by using the endpoints provided by Tukan. 
 
 In order to be able to run this project in a local machine it is mandatory to create an .ENV in the root folder of the proyect with the following attributes:
 
