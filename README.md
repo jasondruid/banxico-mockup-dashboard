@@ -3,16 +3,16 @@
 
 Un proyecto que es un Dashboard que permite generar graficos y tablas en base a información obtenida de Endpoints proporcionados por Tukan. 
 
-Para poder correr este proyecto de manera local es necesario crear un archivo .ENV con los siguientes atributos:
+In order to be able to run this project in a local machine it is mandatory to create an .ENV in the root folder of the proyect with the following attributes:
 
-VITE_API_TUKAN_KEY=`Key porporcionada por Tukan`
+VITE_API_TUKAN_KEY=`Key provided by Tukan`
 
-VITE_API_BANXICO_KEY= `Token obtenido de banxico`
+VITE_API_BANXICO_KEY= `Token retrieved in banxico`
 
-para poder hacerlo funcionar es necesario ejecutar el comando :
+To install all dependencies in this project it is needed to run this command:
 
  NPM INSTALL
 
- Para correrlo de manera adecuada es el comando:
+The run command for this project is the following:
  
  NPM RUN DEV
