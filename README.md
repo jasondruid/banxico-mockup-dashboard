@@ -16,3 +16,6 @@ To install all dependencies in this project it is needed to run this command:
 The run command for this project is the following:
  
  NPM RUN DEV
+
+
+This project was created by Jason Ancona
