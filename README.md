@@ -1,6 +1,9 @@
 
 # Banxico Mockup Dashboard
 
+This project was created by Jason Ancona
+
+
 This is a Dashboard project which allows the user to generate graphs and tables based on the responses obtained by using the endpoints provided by Tukan. 
 
 In order to be able to run this project in a local machine it is mandatory to create an .ENV in the root folder of the proyect with the following attributes:
@@ -19,7 +22,3 @@ The run command for this project is the following:
 
 
 
-
-
-
-This project was created by Jason Ancona
